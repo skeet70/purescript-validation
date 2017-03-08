@@ -1,0 +1,9 @@
+{
+  "name": "purescript-validation",
+  "version": "0.0.0",
+  "main": "target/purescript-validation.js",
+  "scripts": {
+    "test": "pulp test",
+    "build": "npm test && pulp browserify --optimise --standalone PurescriptValidation --to target/purescript-validation.js"
+  }
+}
